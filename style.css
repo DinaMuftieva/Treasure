@@ -28,6 +28,10 @@ header nav {
 	font-size: 1.2em;
 	margin-right: 4%;
 }
+
+footer h5{
+	font-size: 1.2em;
+}
 footer .footer .contact{
 	font-family: 'EB Garamond', serif;
 	font-size: 1.2em;
@@ -43,4 +47,23 @@ footer .footer {
     align-content: center;
     margin-left: 4%;
     margin-right: 4%;
+}
+.input-contact{
+	display: block;
+	margin:auto;
+	text-align: center;
+	padding: 10px;
+	font-family: 'EB Garamond', serif;
+	font-size: large;
+}
+.button-contact{
+	width: 100px;
+	display: block;
+	margin:auto;
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px;
+	font-family: 'EB Garamond', serif;
+	font-size: large;
+	font-weight: bolder;
 }
