@@ -22,6 +22,11 @@ header h2 {
 	font-size: x-large;
 	text-align: center;
 }
+main h2 {
+	font-family: 'EB Garamond', serif;
+	font-size: x-large;
+	text-align: center;
+}
 header nav {
 	font-family: 'EB Garamond', serif;
 	text-align: right;
@@ -90,7 +95,7 @@ footer .footer {
 }
 .tabs_panels{
 		margin-left: 300px;
-		width: 554px;
+		width: 553px;
 }
 .tabs_panel{
 	font-family: 'EB Garamond', serif;
@@ -103,4 +108,19 @@ footer .footer {
 }
 .tabs_panel_active{
 	display:block;
+}
+.slider{
+	width: 409.141px;
+	height: 500px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+.slider-line{
+	height: 500px;
+	width: 1227.423px;
+	background-color: #DDBAA7;
+	display: flex;
+	position: relative;
+	left:0;
+	transition: all ease 1s;
 }

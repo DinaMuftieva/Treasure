@@ -50,3 +50,22 @@ function tabs(selector){
 	.addClass('tabs_panel_active');
 }
 tabs('#tab');
+
+let offset = 0; //смещение от левого края
+const sliderline = document.querySelector('.slider-line');
+document.querySelector('.slider-next').addEventListener('click', function(){
+	offset+=409.141;
+	if (offset>818.282){
+		offset= 0;
+	}
+	sliderline.style.left = -offset +'px';
+}
+);
+document.querySelector('.slider-prev').addEventListener('click', function(){
+	offset-=409.141;
+	if (offset<0){
+		offset= 818.282;
+	}
+	sliderline.style.left = -offset +'px';
+}
+);
