@@ -135,3 +135,16 @@ footer .footer {
 	left:0;
 	transition: all ease 1s;
 }
+.map p{
+	font-family: 'EB Garamond', serif;
+	font-size: x-large;
+	float: left;
+}
+.map .content{
+	margin-top: 225px;
+	margin-left: 80px;
+}
+.map{
+	display: flex;
+    justify-content: space-between;
+}
