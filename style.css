@@ -70,6 +70,16 @@ footer .footer {
 	font-family: 'EB Garamond', serif;
 	font-size: large;
 	font-weight: bold;
+	background-color:#DDBAA7
+}
+.textarea-contact{
+	width: 650px;
+	height: 400px;
+	margin-left: 250px;
+	resize: none;
+	padding: 10px;
+	font-family: 'EB Garamond', serif;
+	font-size: large;
 }
 .tabs_control{
 	display:inline-block;
@@ -114,6 +124,7 @@ footer .footer {
 	height: 500px;
 	margin: 30px auto;
 	overflow: hidden;
+	border-radius: 10px 10px;
 }
 .slider-line{
 	height: 500px;
