@@ -22,9 +22,20 @@ header h2 {
 	font-size: x-large;
 	text-align: center;
 }
+header h3{
+	font-family: 'EB Garamond', serif;
+	font-size: 23px;
+	text-align: center;
+}
 main h2 {
 	font-family: 'EB Garamond', serif;
 	font-size: x-large;
+	text-align: center;
+}
+main h3{
+	font-family: 'EB Garamond', serif;
+	font-size: 23px;
+	font-weight: bold;
 	text-align: center;
 }
 header nav {
@@ -147,4 +158,21 @@ footer .footer {
 .map{
 	display: flex;
     justify-content: space-between;
+}
+.choose_master{
+	display: block;
+	margin:auto;
+	text-align: center;
+	padding: 10px;
+	font-family: 'EB Garamond', serif;
+	font-size: large;
+}
+main span{
+	font-family: 'EB Garamond', serif;
+	font-size: large;
+	font-weight: bold;
+}
+main label{
+	font-family: 'EB Garamond', serif;
+	font-size: large;
 }

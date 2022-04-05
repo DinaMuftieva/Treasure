@@ -69,3 +69,7 @@ document.querySelector('.slider-prev').addEventListener('click', function(){
 	sliderline.style.left = -offset +'px';
 }
 );
+var masters = document.querySelector('#masters');
+city.addEventListener('change', function(){
+	console.log(this.value);
+});
